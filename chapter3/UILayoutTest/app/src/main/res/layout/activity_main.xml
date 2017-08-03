@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!--3.3.1-->
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:orientation="horizontal"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent">-->
+
+    <!--&lt;!&ndash;3.3.1&ndash;&gt;-->
+    <!--&lt;!&ndash;<Button&ndash;&gt;-->
+        <!--&lt;!&ndash;android:id="@+id/button1"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:text="Button 1"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_gravity="top"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="wrap_content" />&ndash;&gt;-->
+
+    <!--&lt;!&ndash;<Button&ndash;&gt;-->
+        <!--&lt;!&ndash;android:id="@+id/button2"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:text="Button 2"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_gravity="center_vertical"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="wrap_content" />&ndash;&gt;-->
+
+    <!--&lt;!&ndash;<Button&ndash;&gt;-->
+        <!--&lt;!&ndash;android:id="@+id/button3"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:text="Button 3"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_gravity="bottom"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="wrap_content"/>&ndash;&gt;-->
+
+    <!--&lt;!&ndash;3.3.1(2)&ndash;&gt;-->
+    <!--&lt;!&ndash;<EditText&ndash;&gt;-->
+        <!--&lt;!&ndash;android:id="@+id/input_message"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:hint="Type something"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_weight="1"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="0dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="wrap_content" />&ndash;&gt;-->
+    <!--&lt;!&ndash;<Button&ndash;&gt;-->
+        <!--&lt;!&ndash;android:id="@+id/send"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:text="Send"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_weight="1"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="0dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="wrap_content" />&ndash;&gt;-->
+
+    <!--&lt;!&ndash;3.3.1(3)&ndash;&gt;-->
+    <!--<EditText-->
+        <!--android:id="@+id/input_message"-->
+        <!--android:hint="Type something"-->
+        <!--android:layout_weight="1"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="wrap_content" />-->
+    <!--<Button-->
+        <!--android:id="@+id/send"-->
+        <!--android:text="Send"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content" />-->
+
+<!--</LinearLayout>-->
+
+<!--3.3.2-->
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent">-->
+
+    <!--<Button-->
+        <!--android:id="@+id/button1"-->
+        <!--android:text="Button 1"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content" />-->
+    <!--<Button-->
+        <!--android:id="@+id/button2"-->
+        <!--android:text="Button 2"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content" />-->
+    <!--<Button-->
+        <!--android:id="@+id/button3"-->
+        <!--android:text="Button 3"-->
+        <!--android:layout_centerInParent="true"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content" />-->
+    <!--<Button-->
+        <!--android:id="@+id/button4"-->
+        <!--android:text="Button 4"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content" />-->
+    <!--<Button-->
+        <!--android:id="@+id/button5"-->
+        <!--android:text="Button 5"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content" />-->
+<!--</RelativeLayout>-->
+
+<!--3.3.2(2)-->
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent">-->
+    <!--<Button-->
+        <!--android:id="@+id/button3"-->
+        <!--android:text="Button 3"-->
+        <!--android:layout_centerInParent="true"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content" />-->
+    <!--<Button-->
+        <!--android:id="@+id/button1"-->
+        <!--android:text="Button 1"-->
+        <!--android:layout_above="@id/button3"-->
+        <!--android:layout_toLeftOf="@id/button3"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content" />-->
+    <!--<Button-->
+        <!--android:id="@+id/button2"-->
+        <!--android:text="Button 2"-->
+        <!--android:layout_above="@id/button3"-->
+        <!--android:layout_toRightOf="@id/button3"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content" />-->
+    <!--<Button-->
+        <!--android:id="@+id/button4"-->
+        <!--android:text="Button 4"-->
+        <!--android:layout_below="@id/button3"-->
+        <!--android:layout_toLeftOf="@id/button3"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content" />-->
+    <!--<Button-->
+        <!--android:id="@+id/button5"-->
+        <!--android:text="Button 5"-->
+        <!--android:layout_below="@id/button3"-->
+        <!--android:layout_toRightOf="@id/button3"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content" />-->
+<!--</RelativeLayout>-->
+
+<!--3.3.3-->
+<!--<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent">-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/text_view"-->
+        <!--android:text="This is TextView"-->
+        <!--android:layout_gravity="left"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content" />-->
+    <!--<ImageView-->
+        <!--android:id="@+id/image_view"-->
+        <!--android:src="@mipmap/ic_launcher"-->
+        <!--android:layout_gravity="right"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content" />-->
+<!--</FrameLayout>-->
+
+<!--3.3.4-->
+<android.support.percent.PercentFrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/button1"
+        android:text="Button 1"
+        android:layout_gravity="left|top"
+        app:layout_widthPercent="50%"
+        app:layout_heightPercent="50%"
+        />
+    <Button
+        android:id="@+id/button2"
+        android:text="Button 2"
+        android:layout_gravity="right|top"
+        app:layout_widthPercent="50%"
+        app:layout_heightPercent="50%"
+        />
+    <Button
+        android:id="@+id/button3"
+        android:text="Button 3"
+        android:layout_gravity="left|bottom"
+        app:layout_widthPercent="50%"
+        app:layout_heightPercent="50%"
+        />
+    <Button
+        android:id="@+id/button4"
+        android:text="Button 4"
+        android:layout_gravity="right|bottom"
+        app:layout_widthPercent="50%"
+        app:layout_heightPercent="50%"
+        />
+</android.support.percent.PercentFrameLayout>
